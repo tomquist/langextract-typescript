@@ -1,9 +1,12 @@
 {
-  "name": "langextract",
+  "name": "@tomquist/langextract",
   "version": "1.1.0",
   "description": "A TypeScript library for extracting structured and grounded information from text using LLMs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -50,6 +53,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kmbro/langextract-typescript.git"
+    "url": "git+https://github.com/tomquist/langextract-typescript.git"
   }
 }
